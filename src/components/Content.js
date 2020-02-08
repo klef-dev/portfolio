@@ -127,10 +127,10 @@ const Content = () => {
       <Group>
         <WriteUp>
           Previously, I've worked with start-ups and participate in community
-          driven initiatives. I worked multiple roles; ranging from DevOps to
-          full-stack developer. These days, I am more focused on
-          experimentation, strategy, analysis and back-end implementation of
-          products.
+          driven initiatives. I worked multiple roles; ranging from being a
+          back-end, devOps to full-stack developer. These days, I am more
+          focused on experimentation, strategy, analysis and back-end
+          implementation of products.
         </WriteUp>
 
         <WriteUp>
