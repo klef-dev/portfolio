@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import profilePicture from "../img/me.jpeg";
 import profilePicture2 from "../img/me2.jpg";
 import { Span, SVGs } from "./Setup";
 
@@ -31,7 +32,11 @@ const LogoContainer = styled.div`
 const ProfileInfo = () => {
   return (
     <ImageContainer>
-      <Image src={profilePicture2} alt="Abraham_Ugbeshe" />
+      {JSON.parse(localStorage.getItem("theme")).mode === "dark" ? (
+        <Image src={profilePicture} alt="Abraham_Ugbeshe" />
+      ) : (
+        <Image src={profilePicture2} alt="Abraham_Ugbeshe" />
+      )}
       <div style={{ marginTop: "10px" }}>
         <h4 className="contact">Get in touch</h4>
         <Span
