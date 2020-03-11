@@ -48,10 +48,14 @@ const Content = () => {
 
         <WriteUp>
           I am a <span>focused driven developer</span>, and I currently work at{" "}
-          <LinkSpan variant="default" href="https://www.hc.com" target="_blank">
-            Happy Choice
+          <LinkSpan
+            variant="default"
+            href="https://www.hackerbay.io"
+            target="_blank"
+          >
+            Hackerbay
           </LinkSpan>
-          , Lagos, Nigeria.
+          , Boston, MA.
         </WriteUp>
 
         <WriteUp>
@@ -154,7 +158,7 @@ const Content = () => {
           >
             FLStudio
           </LinkSpan>{" "}
-          and I love to hang out with my friends like{" "}
+          and I love hanging out with my friends like{" "}
           <LinkSpan
             variant="default"
             href="https://www.instagram.com/dips_________/"
@@ -170,7 +174,15 @@ const Content = () => {
           >
             Toochi
           </LinkSpan>{" "}
-          and my girlfriend{" "}
+          ,
+          <LinkSpan
+            variant="default"
+            href="https://instagram.com/hadassah__o"
+            target="_blank"
+          >
+            My Oga Sir
+          </LinkSpan>{" "}
+          and{" "}
           <LinkSpan
             variant="default"
             href="https://www.instagram.com/_mmesoma._/"
@@ -178,15 +190,7 @@ const Content = () => {
           >
             Mmesoma
           </LinkSpan>
-          . I also love{" "}
-          <LinkSpan
-            variant="default"
-            href="https://www.fcbarcelona.com/en/"
-            target="_blank"
-          >
-            Barcelona
-          </LinkSpan>{" "}
-          <span style={{ marginLeft: "3px" }}>⚽️</span>
+          . I also love ice cream.
         </WriteUp>
 
         <WriteUp>
