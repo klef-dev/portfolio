@@ -30,7 +30,7 @@ const LogoContainer = styled.div`
 
 const ProfileInfo = () => {
   return (
-    <ImageContainer> : (
+    <ImageContainer>
       <Image src={profilePicture2} alt="Abraham_Ugbeshe" />
       <div style={{ marginTop: "10px" }}>
         <h4 className="contact">Get in touch</h4>
