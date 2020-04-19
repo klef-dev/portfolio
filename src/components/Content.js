@@ -178,10 +178,10 @@ const Content = () => {
           and{" "}
           <LinkSpan
             variant="default"
-            href="https://www.instagram.com/_mmesoma._/"
+            href="https://www.instagram.com/iamsope__/"
             target="_blank"
           >
-            Mmesoma
+            Moshee
           </LinkSpan>
           . I also love ice cream.
         </WriteUp>
