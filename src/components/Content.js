@@ -47,15 +47,8 @@ const Content = () => {
         </WriteUp>
 
         <WriteUp>
-          I am a <span>focused driven developer</span>, and I currently work at{" "}
-          <LinkSpan
-            variant="default"
-            href="https://www.hackerbay.io"
-            target="_blank"
-          >
-            Hackerbay
-          </LinkSpan>
-          , Boston, MA.
+          I am a <span>focused driven developer</span>, and I currently work as a{" "}   
+            Freelancer
         </WriteUp>
 
         <WriteUp>
