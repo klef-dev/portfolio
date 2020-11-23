@@ -32,7 +32,7 @@ const Content = () => {
       </Nav>
 
       <WriteUp>
-        I am <span>Abraham Ugbeshe</span>, best called Klef! I build stuff that
+        I'm <span>Abraham Ugbeshe</span>, best called Klef! I build stuff that
         works on the web!{" "}
         <span role="img" aria-label>
           😉
@@ -47,8 +47,15 @@ const Content = () => {
         </WriteUp>
 
         <WriteUp>
-          I am a <span>focused driven developer</span>, and I currently work as a{" "}   
-            Freelancer
+          I am a <span>focused driven developer</span>, and I currently work at{" "}
+          <LinkSpan
+            variant="default"
+            href="https://www.roybarber.com"
+            target="_blank"
+          >
+            RBCUK LTD
+          </LinkSpan>
+          , United Kingdom.
         </WriteUp>
 
         <WriteUp>
@@ -63,7 +70,7 @@ const Content = () => {
           <ul className="tools">
             <Icons variant="javascript">
               <span>
-                <i className="fab fa-js" />
+                <i className="fab fa-js-square" />
               </span>
               <span>JavaScript</span>
             </Icons>
@@ -99,11 +106,11 @@ const Content = () => {
               </span>
               <span>Node JS</span>
             </Icons>
-            <Icons variant="php">
+            <Icons variant="laravel">
               <span>
-                <i className="fab fa-php" />
+                <i className="fab fa-laravel" />
               </span>
-              <span className="tool">Slim</span>
+              <span className="tool">Laravel</span>
             </Icons>
             <Icons variant="python">
               <span>
@@ -123,11 +130,11 @@ const Content = () => {
 
       <Group>
         <WriteUp>
-          Previously, I've worked with start-ups and participate in community
+          Previously, I've worked with startups and participate in community
           driven initiatives. I worked multiple roles; ranging from being a
-          back-end, devOps to full-stack developer. These days, I am more
-          focused on experimentation, strategy, analysis and back-end
-          implementation of products.
+          Backend, DevOps to Full-stack developer. These days, I am more focused
+          on experimentation, strategy, analysis and backend implementation of
+          products.
         </WriteUp>
 
         <WriteUp>
@@ -154,20 +161,20 @@ const Content = () => {
           and I love hanging out with my friends like{" "}
           <LinkSpan
             variant="default"
+            href="https://www.instagram.com/darth_villain/"
+            target="_blank"
+          >
+            Toochi
+          </LinkSpan>
+          ,{" "}
+          <LinkSpan
+            variant="default"
             href="https://www.instagram.com/dips_________/"
             target="_blank"
           >
             Ajala
           </LinkSpan>
           ,{" "}
-          <LinkSpan
-            variant="default"
-            href="https://www.instagram.com/darth_villain/"
-            target="_blank"
-          >
-            Toochi
-          </LinkSpan>{" "}
-          ,
           <LinkSpan
             variant="default"
             href="https://instagram.com/hadassah__o"

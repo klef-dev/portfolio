@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
 import storage from "local-storage-fallback";
 
-const useTheme = (defaultTheme = { mode: "light" }) => {
+const useTheme = (defaultTheme = { mode: "dark" }) => {
   const getInitialTheme = () => {
     const savedTheme = storage.getItem("theme");
 
-    return savedTheme !== undefined && savedTheme !== null ? JSON.parse(savedTheme) : defaultTheme;
+    return savedTheme !== undefined && savedTheme !== null
+      ? JSON.parse(savedTheme)
+      : defaultTheme;
   };
 
   const [theme, _setTheme] = useState(getInitialTheme);
@@ -16,7 +18,7 @@ const useTheme = (defaultTheme = { mode: "light" }) => {
 
   return {
     ...theme,
-    setTheme: ({ setTheme, ...theme }) => _setTheme(theme)
+    setTheme: ({ setTheme, ...theme }) => _setTheme(theme),
   };
 };
 

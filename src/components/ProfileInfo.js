@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import profilePicture2 from "../img/me2.jpg";
+import profilePicture from "../img/me.jpeg";
 import { Span, SVGs } from "./Setup";
 
 const ImageContainer = styled.div`
@@ -31,7 +31,7 @@ const LogoContainer = styled.div`
 const ProfileInfo = () => {
   return (
     <ImageContainer>
-      <Image src={profilePicture2} alt="Abraham_Ugbeshe" />
+      <Image src={profilePicture} alt="Abraham_Ugbeshe" />
       <div style={{ marginTop: "10px" }}>
         <h4 className="contact">Get in touch</h4>
         <Span

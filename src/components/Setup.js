@@ -2,15 +2,15 @@ import styled from "styled-components";
 import theme from "styled-theming";
 
 const linkColor = theme.variants("mode", "variant", {
-  default: { light: "red", dark: "#ffa7c4" }
+  default: { light: "red", dark: "#ffa7c4" },
 });
 
 const linkOpacity = theme.variants("mode", "variant", {
-  default: { light: 0.4, dark: 0.7 }
+  default: { light: 0.4, dark: 0.7 },
 });
 
 const fontColor = theme.variants("mode", "variant", {
-  default: { light: "hsla(0,0%,0%,0.9)", dark: "#FFF" }
+  default: { light: "hsla(0,0%,0%,0.9)", dark: "#FFF" },
 });
 
 const iconColor = theme.variants("mode", "variant", {
@@ -23,7 +23,8 @@ const iconColor = theme.variants("mode", "variant", {
   vuejs: { light: "#34495E", dark: "#41B883" },
   instagram: { light: "#fb3958", dark: "#fb3958" },
   twitter: { light: "#1DA1F2", dark: "#1DA1F2" },
-  github: { light: "#3E2C00", dark: "#F1502F" }
+  github: { light: "#3E2C00", dark: "#F1502F" },
+  laravel: { light: "#6C6C6C", dark: "#F05340" },
 });
 
 export const Span = styled.a`
