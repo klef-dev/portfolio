@@ -34,7 +34,7 @@ const Content = () => {
       <WriteUp>
         I'm <span>Abraham Ugbeshe</span>, best called Klef! I build stuff that
         works on the web!{" "}
-        <span role="img" aria-label>
+        <span role="img" aria-label="emoji">
           😉
         </span>
       </WriteUp>
