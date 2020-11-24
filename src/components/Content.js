@@ -192,6 +192,21 @@ const Content = () => {
           </LinkSpan>
           . I also love ice cream.
         </WriteUp>
+
+        <WriteUp>
+          I’m mostly available on{" "}
+          <Span
+            variant="default"
+            href="mailto:abrahamugbeshe@gmail.com?subject=Hello Klef!"
+          >
+            email
+          </Span>{" "}
+          and{" "}
+          <Span variant="default" href="https://instagram.com/klefcodes">
+            instagram
+          </Span>{" "}
+          . You can send me a message and I’ll reply as soon as I can.
+        </WriteUp>
       </Group>
     </Container>
   );
