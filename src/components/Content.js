@@ -161,7 +161,7 @@ const Content = () => {
           and I love hanging out with my friends like{" "}
           <LinkSpan
             variant="default"
-            href="https://www.instagram.com/darth_villain/"
+            href="https://www.instagram.com/your.villain__/"
             target="_blank"
           >
             Toochi
